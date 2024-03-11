@@ -10,7 +10,7 @@ import numpy as np
 import cv2
 
 # donwload haarcascade_frontalface_default from here "https://github.com/opencv/opencv/tree/master/data/haarcascades"
-
+# download model_weights from this link "https://drive.google.com/file/d/19zN5JpfFEwqAjh8F2soXQqh590ysSsA8/view?usp=sharing"
 
 def FacialExpressionModel(json_file, weights_file):
     with open(json_file,"r") as file:
