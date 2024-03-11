@@ -32,7 +32,7 @@ sign_image = Label(top)
 
 facec = cv2.CascadeClassifier(r'C:\STUDY\Emotion_Detection\haarcascade_frontalface_default.xml')
 model = FacialExpressionModel(r"C:\STUDY\Emotion_Detection\Emotion_model.json", r"C:\STUDY\Emotion_Detection\model_weights.h5")
-
+# Install model_weights from this link "https://drive.google.com/file/d/19zN5JpfFEwqAjh8F2soXQqh590ysSsA8/view?usp=sharing"
 
 EMOTIONS_LIST = ["Angry","Disgust","Fear","Happy","Neutral","Sad","Surprise"]
 
